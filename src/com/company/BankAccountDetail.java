@@ -3,18 +3,44 @@ package com.company;
 /**
  * Created by android on 12/25/2016.
  */
-public abstract class BankAccountDetail {
+public  class BankAccountDetail {
     String AccountName;
     int AccountNumber;
     String Address;
     Float AccountBalance;
 
-    abstract void withdrawMoney();
+    public String getAccountName() {
+        return AccountName;
+    }
 
-    abstract Float retrieveAccountBalance();
+    public void setAccountName(String accountName) {
+        AccountName = accountName;
+    }
 
-    abstract void transferMoney();
+    public int getAccountNumber() {
+        return AccountNumber;
+    }
 
-    abstract void depositMoney();
+    public void setAccountNumber(int accountNumber) {
+        AccountNumber = accountNumber;
+    }
+
+    public String getAddress() {
+        return Address;
+    }
+
+    public void setAddress(String address) {
+        Address = address;
+    }
+
+    public Float getAccountBalance() {
+        return AccountBalance;
+    }
+
+    public void setAccountBalance(Float accountBalance) {
+        AccountBalance = accountBalance;
+    }
+
+
 
 }
