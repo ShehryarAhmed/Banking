@@ -7,7 +7,7 @@ public  class BankAccountDetail {
     String AccountName;
     int AccountNumber;
     String Address;
-    Float AccountBalance;
+    double AccountBalance;
 
     public String getAccountName() {
         return AccountName;
@@ -33,11 +33,11 @@ public  class BankAccountDetail {
         Address = address;
     }
 
-    public Float getAccountBalance() {
+    public double getAccountBalance() {
         return AccountBalance;
     }
 
-    public void setAccountBalance(Float accountBalance) {
+    public void setAccountBalance(double accountBalance) {
         AccountBalance = accountBalance;
     }
 
