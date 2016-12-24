@@ -23,12 +23,12 @@ public class Banking {
     }
 
     private void addAccount(){
-
+        createAccount = new CreateAccount();
+        createAccount.creationAccount();
+        saveAccount(createAccount);
     }
 
     private void saveAccount(CreateAccount ca){
         createAccounts[accountIndex++] = ca;
     }
-
-
 }

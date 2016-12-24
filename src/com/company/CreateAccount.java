@@ -1,13 +1,11 @@
 package com.company;
 
-import com.sun.org.apache.xpath.internal.SourceTree;
-
 import java.util.Scanner;
 
 /**
  * Created by android on 12/25/2016.
  */
-public class CreateAccount extends BankAccountDetail {
+public class CreateAccount extends AccountDetail {
     Scanner getval = new Scanner(System.in);
 
     public void creationAccount(){
