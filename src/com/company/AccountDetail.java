@@ -8,6 +8,15 @@ public  class AccountDetail {
     int AccountNumber;
     String Address;
     double AccountBalance;
+    String AccountType;
+
+    public String getAccountType() {
+        return AccountType;
+    }
+
+    public void setAccountType(String accountType) {
+        AccountType = accountType;
+    }
 
     public String getAccountName() {
         return AccountName;
