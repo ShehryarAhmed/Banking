@@ -7,9 +7,10 @@ public abstract class AccountFeatures {
 
     abstract void withdrawMoney();
 
-    abstract Float retrieveAccountBalance();
+    abstract double retrieveAccountBalance();
 
     abstract void transferMoney();
 
     abstract void depositMoney();
+    abstract void AccountType();
 }

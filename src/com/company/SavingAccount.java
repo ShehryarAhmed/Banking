@@ -3,10 +3,30 @@ package com.company;
 /**
  * Created by android on 12/25/2016.
  */
-public class SavingAccount extends AccountDetail {
+public class SavingAccount extends AccountFeatures {
+    @Override
+    void withdrawMoney() {
+
+    }
 
     @Override
-    public String getAccountType() {
-        return "Saving Account";
+    double retrieveAccountBalance() {
+        return 0;
+    }
+
+    @Override
+    void transferMoney() {
+
+    }
+
+    @Override
+    void depositMoney() {
+
+    }
+
+    @Override
+    void AccountType() {
+        AccountDetail ad = new AccountDetail();
+        ad.setAccountType("Saving Account");
     }
 }
